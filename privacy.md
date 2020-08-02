@@ -1,6 +1,6 @@
 # PRIVACY POLICY
-## SPICA FOR IOS & ANDROID
 
+## SPICA FOR IOS & ANDROID
 
 Last updated August 02, 2020
 
@@ -45,8 +45,8 @@ If you are under 18 years of age, reside in California, and have a registered ac
 
 If you have questions or comments about this Privacy Policy, please contact us at:
 
-Adrian Baumgart
-Karl-Gehrig-Straße 2
-Nußloch, 69226
-+4915165909306
-adrian@abmgrt.dev
+- Adrian Baumgart
+- Karl-Gehrig-Straße 2
+- Nußloch, 69226
+- +4915165909306
+- adrian@abmgrt.dev
