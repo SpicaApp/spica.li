@@ -11,11 +11,18 @@
     <link rel="icon" type="image/png" sizes="196x196" href="/assets/img/196.png">
     <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/512.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <script src="assets/js/fartscroll.js" charset="utf-8"></script>
 </head>
 
-<body class="h-100 d-flex flex-column"><nav class="navbar navbar-light navbar-expand-md navigation-clean">
-	<a class="navbar-brand" href="/index.html">Spica</a
+<script>
+    if (Math.floor(Math.random() * 1000) == 100) { fartscroll(); }
+</script>
+
+<body class="h-100 d-flex flex-column">
+    <div class="col-md-8 offset-md-2">
+    <nav class="navbar navbar-dark navbar-expand-md navigation-clean fixed-top">
+	<a class="navbar-brand" href="index.html">Spica</a
 	><button
 		data-toggle="collapse"
 		data-target="#navcol-1"
@@ -27,34 +34,36 @@
 	<div class="collapse navbar-collapse" id="navcol-1">
 		<ul class="nav navbar-nav ml-auto">
 			<li role="presentation" class="nav-item">
-				<a class="nav-link" href="/privacy.html">Privacy Policy</a>
+				<a class="nav-link" href="privacy.html">Privacy Policy</a>
 			</li>
 			<li role="presentation" class="nav-item">
-				<a class="nav-link" href="/disclosure.html">Legal Disclosure</a>
+				<a class="nav-link" href="disclosure.html">Legal Disclosure</a>
 			</li>
 		</ul>
 	</div>
 </nav>
 
-    <div style="margin: 16px;">
+    <div style="margin-top: 80px;">
         <div>
             <h1 class="display-4 text-left" style="font-weight: bold">Spica</h1>
-            <h4 class="text-left" style="margin-left: 8px;">for Alles</h4>
+            <h4 class="text-left" style="margin-left: 8px;">for Alles Micro</h4>
         </div>
         <div style="margin-top: 64px;">
             <h1>What is Spica?</h1>
-            <p>Spica is an iOS Client for Alles Micro, a service by Archie Baer and part of Alles.</p>
-            <p>It is easy to use and privacy-friendy. No trackers, no ads, nothing.¹</p>
+            <p>Spica is an iOS and Android¹ Client for Alles Micro, a service by Archie Baer and part of Alles.</p>
+            <p>It is easy to use and privacy-friendy. No trackers, no ads, nothing.²</p>
         </div>
     </div>
     <footer style="position: fixed;bottom: 0;margin-right: 8px;margin-left: 8px;font-size:13px">
-        <p class="text-secondary" style="margin-bottom: 0px;">¹ This applies to Spica itself. Alles, while very privacy-friendly, may use certain technologies to record user activity.</p>
+        <p class="text-secondary" style="margin-bottom: 0px;">¹ Still in development, and not yet avalible for use.</p>
+        <p class="text-secondary" style="margin-bottom: 0px;">² This applies to Spica itself. Alles, while very privacy-friendly, may use certain technologies to record user activity.</p>
         <p class="text-left text-secondary" style="margin: 0px;">TestFlight button by&nbsp;<a href="https://twitter.com/DylanMcD8">@DylanMcD8<br></a></p>
         <p class="text-secondary" style="margin-bottom: 0px;">© 2020, Adrian Baumgart. All rights reserved.</p>
     </footer>
-    <div class="d-flex flex-row justify-content-center align-items-center mt-5"><a href="https://testflight.apple.com/join/cMOV2Gti"><img src="/assets/img/Test%20on%20TestFlight.png" style="width: 200px;"></a></div>
+    <div class="d-flex flex-row justify-content-center align-items-center mt-5"><a href="https://testflight.apple.com/join/cMOV2Gti"><img src="assets/img/TestOnTestFlight.png" style="width: 200px;"></a></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+</div>
 </body>
 
 </html>
